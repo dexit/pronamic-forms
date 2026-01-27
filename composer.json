@@ -18,7 +18,7 @@
 	"require": {
 		"php": "^8.2",
 		"automattic/jetpack-autoloader": "^5.0",
-		"pronamic/wp-pay-logos": "^2.2"
+		"pronamic/wp-pay-logos": "^2.3"
 	},
 	"require-dev": {
 		"phpstan/extension-installer": "^1.4",
