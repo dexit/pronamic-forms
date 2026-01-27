@@ -197,6 +197,8 @@ final class PayController {
 
 		$amount = new Money( $amount, $currency );
 
+		$line->set_quantity( 1 );
+		$line->set_unit_price( $amount );
 		$line->set_total_amount( $amount );
 	}
 
